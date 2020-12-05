@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div><p>Фамилия</p><input type="text" id="for1"></div>
+        <div><p>Имя</p><input type="text" id="for2"></div>
+        <div><p>Отчество</p><input type="text" id="for3"></div>
+        <div><p>Марка Автомобиля</p><input type="text" id="for4"></div>
+        <select id="marka">
+            <option>Toyota</option>
+            <option>Ford</option>
+            <option>Hyundai</option>
+            <option>Volkswagen</option>
+            <option>Nissan</option>
+            <option>Honda</option>
+            <option>Chevrolet</option>
+            <option>Kia</option>
+            <option>Renault</option>
+            <option>Mercedes</option>
+            <option>Niva</option>
+            <option>Lada</option>
+            <option>Other....</option>
+
+        </select>
+        <div><p>Стоимость</p><input readonly="text" id="for5" value="6000"></div>
+        <div><p>Сроки</p><input type="date"id="for6"></div>
+        <div><p>Вид работ</p><input list="Gog" id="for7"></div>
+        <datalist id="Gog">
+            <option value="Замена масла"></option>
+            <option value="Замена колес"></option>
+            <option value="Диагностика"></option>
+            <option value="Изменение цвета"></option>
+            <option value="Добавление подсветки"></option>
+            <option value="Перетяжка салона"></option>
+            <option value="Очистка салона"></option>
+            <option value="Починка машины(Корпус, и тд)"></option>
+            <option value="Другое"></option>
+        </datalist>>
+        <div>
+        <form>
+            <input type="submit" value="Отправить заказ" id="tenor">
+        </form>
+        </div>
+ 
+    </div>
+</body>
+<script src="macine.js"></script>
+</html>
